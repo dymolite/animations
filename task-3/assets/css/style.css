@@ -1,0 +1,136 @@
+.container {
+    width: 80%;
+    margin: 0 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.loading {
+    position: relative;
+}
+.form-1::before {
+    content: '';
+    position: absolute;
+    top: 300px;
+    left: 0;
+    width: 30px;
+    height: 30px;
+    background-color: red;
+    border: none;
+    border-radius: 50%;
+    animation: circle-1 3s cubic-bezier(.75,0,.18,1) .5s;
+}
+@keyframes circle-1 {
+    0%{
+        left: 0;
+        top: 300px;
+    }
+    15% {
+        left: 60px;
+        top: 300px;
+    }
+    30%{
+        left: 60px;
+        top: 260px;
+    }
+    45% {
+        left: 60px;
+        top: 340px;
+    }
+    60% {
+        left: 60px;
+        top: 260px;
+    }
+    75% {
+        left: 60px;
+        top: 300px;
+    }
+    100% {
+        left: 0px;
+        top: 300px;
+    }
+}
+.form-2::before {
+    content: '';
+    position: absolute;
+    top: 300px;
+    left: 0;
+    width: 30px;
+    height: 30px;
+    background-color: #4C9A29;
+    border: none;
+    border-radius: 50%;
+    animation: circle-2 3s cubic-bezier(.75,0,.18,1) 550ms;
+}
+@keyframes circle-2 {
+    0%{
+        left: 0;
+        top: 300px;
+    }
+    15% {
+        left: 0;
+        top: 300px;
+    }
+    30%{
+        left: 0;
+        top: 260px;
+    }
+    45% {
+        left: 0;
+        top: 340px;
+    }
+    60% {
+        left: 0;
+        top: 260px;
+    }
+    75% {
+        left: 0;
+        top: 300px;
+    }
+    100% {
+        left: 0px;
+        top: 300px;
+    }
+}
+.form-3::before {
+    content: '';
+    position: absolute;
+    top: 300px;
+    left: 0;
+    width: 30px;
+    height: 30px;
+    background-color: #294d9a;
+    border: none;
+    border-radius: 50%;
+    animation: circle-3 3s cubic-bezier(.75,0,.18,1) 600ms;
+}
+@keyframes circle-3 {
+    0%{
+        left: 0;
+        top: 300px;
+    }
+    15% {
+        left: -60px;
+        top: 300px;
+    }
+    30%{
+        left: -60px;
+        top: 260px;
+    }
+    45% {
+        left: -60px;
+        top: 340px;
+    }
+    60% {
+        left: -60px;
+        top: 260px;
+    }
+    75% {
+        left: -60px;
+        top: 300px;
+    }
+    100% {
+        left: -60pxpx;
+        top: 300px;
+    }
+}

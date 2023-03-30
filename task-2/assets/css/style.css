@@ -1,0 +1,26 @@
+body {
+    background-color: #fafafa;
+}
+.container {
+    display: flex;
+    width: 90%;
+    height: 90vh;
+    justify-content: center;
+    align-items: center;
+}
+.icon {
+    position: relative;
+}
+.icon i{
+    font-size: 100px;
+    position: absolute;
+    animation: rotate 5s linear infinite;
+}
+@keyframes rotate {
+    0% {
+        transform: rotate(0);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
